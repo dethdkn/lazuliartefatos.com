@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
-// import Nav from '@/components/Nav'
+import Nav from '@/components/navbar/Nav'
+import { roboto } from '@/utils/fonts'
 import { Analytics } from '@vercel/analytics/next'
-import { Roboto } from 'next/font/google'
 import './tailwind.css'
 
 export const metadata: Metadata = {
@@ -10,13 +10,11 @@ export const metadata: Metadata = {
   description: 'Lojinha de arte.fatos - ecobags feitas à mão sob encomenda e LP\'s dos clássicos aos mais raros. desvenda...',
 }
 
-const roboto = Roboto({ subsets: ['latin'], weight: '400' })
-
 export default function IndexLayout({ children }: Readonly<{ children: ReactNode }>){
   return (
     <html lang="pt-BR">
       <body className={roboto.className}>
-        {/* <Nav /> */}
+        <Nav />
         {children}
         <Analytics />
       </body>
