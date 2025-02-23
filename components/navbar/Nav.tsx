@@ -5,7 +5,7 @@ import NavLink from './NavLink'
 const routes = [
   { text: 'Início', href: '/', first: true },
   { text: 'Ecobags', href: '/ecobags' },
-  { text: 'cerâmica', href: '/ceramica' },
+  { text: 'Cerâmicas', href: '/ceramicas' },
   { text: 'Quadros', href: '/quadros' },
   { text: 'LPs', href: '/lps', last: true },
 ]

@@ -9,10 +9,13 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@iconify/react": "^5.2.0",
     "@vercel/analytics": "^1.5.0",
     "next": "15.1.7",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "3.4.17"
   },
   "devDependencies": {
     "@dethdkn/eslint-config": "^2.0.3",
@@ -20,8 +23,6 @@
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "eslint": "^9.21.0",
-    "postcss": "^8.5.3",
-    "tailwindcss": "3.4.17",
     "typescript": "^5.7.3"
   }
 }
