@@ -3,7 +3,7 @@ import type { ReactNode } from 'react'
 import Nav from '@/components/navbar/Nav'
 import { roboto } from '@/utils/fonts'
 import { Analytics } from '@vercel/analytics/next'
-import './tailwind.css'
+import '@/assets/global.css'
 
 export const metadata: Metadata = {
   title: 'Lazuli Artefatos',
