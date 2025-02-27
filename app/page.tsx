@@ -1,7 +1,6 @@
 import bg from '@/assets/bg.png'
 import ceramica from '@/assets/ceramica.png'
 import ecobag from '@/assets/ecobag.png'
-import lp from '@/assets/lp.png'
 import quadro from '@/assets/quadro.png'
 import style from '@/assets/style.module.css'
 import CardLink from '@/components/CardLink'
@@ -30,11 +29,10 @@ export default function Index(){
         </div>
       </Hero>
       <section id='conheca' className='mx-auto max-w-7xl px-4 py-8'>
-        <div className='grid grid-cols-1 place-items-center gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:place-items-stretch'>
+        <div className='grid grid-cols-1 place-items-center gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:place-items-stretch'>
           <CardLink text='Ecobags' href='/ecobags' image={ecobag} color='blue' />
           <CardLink text='Cerâmicas' href='/ceramicas' image={ceramica} color='green' />
           <CardLink text='Quadros' href='/quadros' image={quadro} color='cyan' />
-          <CardLink text='LPs' href='/lps' image={lp} color='red' />
         </div>
       </section>
     </main>

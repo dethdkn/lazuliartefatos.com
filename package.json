@@ -11,14 +11,14 @@
   "dependencies": {
     "@iconify/react": "^5.2.0",
     "@vercel/analytics": "^1.5.0",
-    "next": "15.1.7",
+    "next": "15.2.0",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwindcss": "3.4.17"
   },
   "devDependencies": {
-    "@dethdkn/eslint-config": "^2.0.3",
+    "@dethdkn/eslint-config": "^2.1.0",
     "@types/node": "^22.13.5",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
